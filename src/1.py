@@ -1,6 +1,6 @@
-def hello(name):
-    return f"Hello {name}!"
+def hello(name, last_name):
+    return f"Hello {name} {last_name}!"
 
-print(hello("World"))
-print(hello("Alice"))
-print(hello("Bob"))
+print(hello("World", "Citizen"))
+print(hello("Alice", "Johnson"))
+print(hello("Bob", "Smith"))
